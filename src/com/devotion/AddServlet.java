@@ -31,7 +31,8 @@ public class AddServlet extends HttpServlet {
                     " values(?,?,?,?,?,?,?,?)");
             ps.setString(1,""+i);
             ps.setString(2,"1");
-            ps.setString(3,request.getParameter("content"));
+            String content = new String(request.getParameter("content").getBytes("ISO-8859-1"), "UTF-8");
+            ps.setString(3,content);
             Calendar calendar=Calendar.getInstance();
             ps.setString(4,""+calendar.get(Calendar.YEAR));
             ps.setString(5,""+calendar.get(Calendar.MONTH));

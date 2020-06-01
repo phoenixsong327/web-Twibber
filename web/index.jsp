@@ -83,11 +83,10 @@
       background: gray;
     }
     body{
-
-      background:url("img/1569424034506.png")   ;
-      background-repeat: no-repeat;
-      background-size: 100%;
-      background-attachment: fixed;
+        background:url("img/1569424034506.png")   ;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
     }
 
 
