@@ -20,9 +20,9 @@ public class TwibberServlet extends HttpServlet {
             String drivername = "com.mysql.cj.jdbc.Driver";
             Class.forName(drivername);
             // 数据库连接字符串
-            String url = "jdbc:mysql://localhost:3306/SongYadong?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT";
+            String url = "jdbc:mysql://localhost:3306/bighomework?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT";
 
-            Connection con = DriverManager.getConnection(url, "root", "990325");
+            Connection con = DriverManager.getConnection(url, "root", "123456");
             Statement statement = con.createStatement();
             ResultSet rs=statement.executeQuery("SELECT * from Twibber");
             //authorid = "1";

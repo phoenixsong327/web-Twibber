@@ -118,3 +118,5 @@
 
   </body>
   </html>
+
+  <%-- todo:redo all frontend --%>
